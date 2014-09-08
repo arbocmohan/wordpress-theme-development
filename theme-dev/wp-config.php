@@ -22,7 +22,7 @@ define('DB_NAME', 'themedevdb');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -33,8 +33,6 @@ define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
-define('WP_MEMORY_LIMIT', '64M');
-
 /**#@+
  * Authentication Unique Keys and Salts.
  *
@@ -44,14 +42,14 @@ define('WP_MEMORY_LIMIT', '64M');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '2B]Squ(/T);`c47(0>LJht$xxKT{~|NSgAEz+ERcq+EG{.D}z 6i3jKoK*23* =C');
-define('SECURE_AUTH_KEY',  '|wzFWmz?Dch-QVLm:ri{s,%<y2:]vBGw`~*/:`E>r|nb$]e#E,EASP(JL>A?.kc(');
-define('LOGGED_IN_KEY',    'mt3dbY?,H;e(`(J3d~rxZu)b0kt[3JA~Vh$^9,FyXt?d]36lHeAcU;*)=1I;~tY<');
-define('NONCE_KEY',        '<kzP_y{I|*y%iO;7U8C27Zdw]xRbxLK~NA~(r;_yP5yU|&G,}F<o>h7CF}~FsZ$|');
-define('AUTH_SALT',        'zGyfAA]*z&*3(/w}kh9+]=rxL&_>|uhO{tMb)h_/WQQH[l6S^v4g?Jfvn<H#|@kf');
-define('SECURE_AUTH_SALT', '_W7uJM:#bFfe7$8TWLkN`3my8CrDOEb+lAHse1O#I5hF5E(Tk$fU$lTCZPS|TxN^');
-define('LOGGED_IN_SALT',   'v@4bJcJ!Z;dz#k3]0X$@SAi/!.g&j/+#CowOfA5Xut&#j(Qa( ?>Qj(k||1ZD_/a');
-define('NONCE_SALT',       'i~?H$/me<ge^RLQKeUe,DI+<lZkFs*C],8b]@I9>,b`&8|6)9l0gxKw}qc-$s)uu');
+define('AUTH_KEY',         'jWD-Y[dNd~GiXaATP0,x2Da<gcK4jof[E_ADWouu-YFf33;N?UD41>o:RH6_}ov~');
+define('SECURE_AUTH_KEY',  '!,REE2FX.|;l*IhrfPM+*UkdVeqR{.>ed|Ff+pB2w0.]eUa9H@n$h2:VZ%e~[K>^');
+define('LOGGED_IN_KEY',    'g2v6>/VpwBOST;RF$SKax-k;7_-WYj_-mP!uEMt-Ko[T+bB$>*F)*QU/+AaH@ Rv');
+define('NONCE_KEY',        'HhO1aCjKl$-Kr/zcJ-Gv<d?|X.7!!n4?VrH^$=G4u*FRojhvNUuN-s|<EVWEL-F3');
+define('AUTH_SALT',        'EoFc d%:TM+/!*7G:nI%NDr{OSGv#()g^$6L&wtx7{s4(W}8;L(#wlOO*XKC|CCk');
+define('SECURE_AUTH_SALT', 'Sq!-++f`501)aO+NvVjA>>.%*raM|pR;QVyNd_VS>kK6%pMaz~|9=mWse!}|fG[i');
+define('LOGGED_IN_SALT',   'Yx0eoIfX{D.b^QCJ02uKm {d|HVOuoAao$#,13;`!JcB_J[f;){ePZnyr(VyLUE.');
+define('NONCE_SALT',       '|&t]Y@$_](Lo*8#!!bZk{l*NfTXr-cjy#L:3BB-_ELZ6G6k-++l52^7jb@b$8TMO');
 
 /**#@-*/
 
@@ -62,16 +60,6 @@ define('NONCE_SALT',       'i~?H$/me<ge^RLQKeUe,DI+<lZkFs*C],8b]@I9>,b`&8|6)9l0g
  * prefix. Only numbers, letters, and underscores please!
  */
 $table_prefix  = 'wp_';
-
-/**
- * WordPress Localized Language, defaults to English.
- *
- * Change this to localize WordPress. A corresponding MO file for the chosen
- * language must be installed to wp-content/languages. For example, install
- * de_DE.mo to wp-content/languages and set WPLANG to 'de_DE' to enable German
- * language support.
- */
-define('WPLANG', '');
 
 /**
  * For developers: WordPress debugging mode.
